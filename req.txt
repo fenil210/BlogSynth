@@ -1,0 +1,5 @@
+crewai
+crewai-tools
+google-ai-generativelanguage
+google-api-core
+google-generativeai
