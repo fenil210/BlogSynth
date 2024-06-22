@@ -41,7 +41,8 @@ Key components:
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/yourusername/ai-agent-project.git
+```
+git clone https://github.com/yourusername/ai-agent-project.git
 cd ai-agent-project
 ```
 
