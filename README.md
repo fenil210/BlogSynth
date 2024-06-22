@@ -86,4 +86,4 @@ new-blog-post_new.md
 ```
 
 ## ACK
-Feel free to visit https://www.crewai.com/ for more details
+Feel free to visit [CREW-AI](https://docs.crewai.com/) for more details
