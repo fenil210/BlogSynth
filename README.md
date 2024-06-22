@@ -77,3 +77,9 @@ This will initiate the research and writing tasks, producing a markdown file wit
 ## Configuration
 
 Modify the `agents.py` file to adjust agent roles, goals, and backstories. Update `tasks.py` to change the specific tasks assigned to each agent.
+
+## Find 2 examples of generated blog post in
+```
+new-blog-post.md
+new-blog-post_new.md
+```
