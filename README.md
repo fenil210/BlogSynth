@@ -84,3 +84,6 @@ Modify the `agents.py` file to adjust agent roles, goals, and backstories. Updat
 new-blog-post.md
 new-blog-post_new.md
 ```
+
+## ACK
+Feel free to visit https://www.crewai.com/ for more details
