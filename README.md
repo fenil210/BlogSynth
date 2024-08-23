@@ -1,4 +1,4 @@
-# AI Agent Project-X
+# BlogSynth - AI Agent Project-X
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -13,77 +13,92 @@
 
 ## Introduction
 
-This project demonstrates the implementation of AI agents using the CrewAI framework. It showcases how multiple AI agents can collaborate to perform complex tasks, paving the way for more advanced AI systems and potentially contributing to the development of LLM-OS (Large Language Model Operating Systems) and AGI (Artificial General Intelligence).
+**BlogSynth - AI Agent Project-X** showcases the implementation of AI agents using the CrewAI framework, with a specific focus on generating high-quality blogs based on user-input topics. The system demonstrates the collaboration of AI agents in performing complex tasks, offering insights into the future potential of AI systems, including the development of LLM-OS (Large Language Model Operating Systems) and AGI (Artificial General Intelligence).
 
 ## Function Calling and AI Agents
 
-Function calling in the context of AI refers to the ability of language models to invoke specific functions or tools to complete tasks. This capability allows AI models to interact with external systems, databases, or APIs, greatly expanding their problem-solving abilities.
+In the context of AI, function calling allows language models to invoke specific functions or tools to complete tasks. This capability expands their problem-solving abilities, enabling them to interact with external systems, databases, or APIs.
 
-AI agents are autonomous entities powered by AI models that can perceive their environment, make decisions, and take actions to achieve specific goals. They represent a significant step towards more intelligent and versatile AI systems.
+AI agents are autonomous entities powered by AI models that can perceive their environment, make decisions, and take actions to achieve specific goals. The combination of function calling and AI agents forms the foundation for building intelligent systems like LLM-OS and AGI.
 
-The combination of function calling and AI agents is seen as a potential building block for LLM-OS and AGI:
-
-- **LLM-OS (Large Language Model Operating Systems)**: These are conceptual systems where language models serve as the primary interface for managing and orchestrating various computational tasks and resources.
-- **AGI (Artificial General Intelligence)**: This refers to highly autonomous systems that outperform humans at most economically valuable work, showcasing human-like adaptability across diverse domains.
-
-By leveraging function calling and agent-based architectures, this project demonstrates a small-scale example of how AI systems can be designed to tackle complex, multi-step tasks through collaboration and specialized roles.
+- **LLM-OS**: These conceptual systems utilize language models as the primary interface for managing and orchestrating various computational tasks and resources.
+- **AGI**: Refers to highly autonomous systems capable of outperforming humans across a wide range of economically valuable tasks, showcasing human-like adaptability.
 
 ## Project Overview
 
-This project implements a crew of AI agents specializing in cybersecurity research and writing. The agents collaborate to research emerging trends in AI-driven cybersecurity and produce informative articles on the subject.
+**BlogSynth** is designed to assist in writing well-researched and high-quality blogs. The system consists of a frontend and backend, with the backend powered by Flask and the frontend built using React.
 
-Key components:
-- Cybersecurity Researcher Agent
-- Cybersecurity Writer Agent
-- Task definitions for research and writing
-- Integration with external tools for web searches
+### Key Components:
+- **Researcher Agent**: Gathers information on the topic provided.
+- **Writer Agent**: Structures the gathered information into a coherent blog.
+- **Frontend (React)**: User interface for interacting with the AI agents.
+- **Backend (Flask)**: Manages the AI agents and coordinates their tasks.
 
 ## Installation
 
 1. Clone the repository:
-```
-git clone https://github.com/yourusername/ai-agent-project.git
-cd ai-agent-project
-```
+    ```bash
+    git clone https://github.com/yourusername/ai-agent-project-x.git
+    cd ai-agent-project-x
+    ```
 
-2. Install required dependencies:
-```
-pip install -r requirements.txt
-```
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    npm install --prefix frontend
+    ```
 
 3. Set up environment variables:
-Create a `.env` file in the project root and add your API keys:
-```
-GOOGLE_API_KEY="your_google_api_key" (from "https://aistudio.google.com/app")
-SERPER_API_KEY="your_serper_api_key" (from "https://serper.dev/")
-```
+   Create a `.env` file in the project root for the backend and frontend and add your API keys:
+    ```bash
+    GOOGLE_API_KEY="your_google_api_key"  # Get from "https://aistudio.google.com/app"
+    SERPER_API_KEY="your_serper_api_key"  # Get from "https://serper.dev/"
+    ```
 
 ## Usage
 
-Run the main script to start the AI agent crew:
-```
-python crew.py
-```
+### Backend
 
-This will initiate the research and writing tasks, producing a markdown file with the results.
+1. Start the Flask backend server:
+    ```bash
+    python backend/server.py
+    ```
+    The backend will run on `http://localhost:5000`.
 
-## File Structure
+### Frontend
 
-- `crew.py`: Main script that initializes and runs the AI agent crew
-- `agents.py`: Defines the AI agents and their characteristics
-- `tasks.py`: Specifies the tasks to be performed by the agents
-- `tools.py`: Implements external tools used by the agents (e.g., web search)
-- `.env`: Contains API keys and other environment variables
+1. Start the React frontend:
+    ```bash
+    npm start --prefix frontend
+    ```
+    The frontend will run on `http://localhost:3000`.
+
+2. Open your browser and navigate to `http://localhost:3000` to interact with the AI agents.
+
+
+- **backend/**: Contains the core logic of AI agents and tasks.
+- **frontend/**: Houses the user interface built with React.
+- **server.py**: Main Flask server file.
+- **AIAgentUI.jsx**: Main React component handling user interaction.
 
 ## Configuration
 
-Modify the `agents.py` file to adjust agent roles, goals, and backstories. Update `tasks.py` to change the specific tasks assigned to each agent.
+- Modify the `agents.py` file to adjust agent roles and goals.
+- Update `tasks.py` to change the specific tasks assigned to each agent.
+- The `.env` file should contain the API keys required for various external services.
 
-## Find 2 examples of generated blog post in
-```
-new-blog-post.md
-new-blog-post_new.md
-```
+## Examples
 
-## ACK
-Feel free to visit [CREW-AI](https://docs.crewai.com/) for more details
+You can find examples of generated blog posts in the files:
+- `new-blog-post.md`
+- `new-blog-post_new.md`
+
+## Acknowledgments
+
+Visit [CREW-AI](https://docs.crewai.com/) for more details on the CrewAI framework.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+
