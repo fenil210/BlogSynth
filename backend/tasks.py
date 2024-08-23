@@ -7,9 +7,9 @@ def create_research_task(topic, agent):
             f"Identify the next big trend in {topic}. "
             "Focus on identifying pros and cons and the overall narrative. "
             "Your final report should clearly articulate the key points, "
-            "its market opportunities, and potential risks."
+            "its market opportunities, and potential risks. Include references."
         ),
-        expected_output=f'A comprehensive 3 paragraphs long report on the latest AI trends in {topic}.',
+        expected_output=f'A comprehensive 3 paragraphs long report on the latest AI trends in {topic}, with references.',
         tools=[tool],
         agent=agent,
     )
