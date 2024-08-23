@@ -1,4 +1,4 @@
-# AI Agent Project
+# AI Agent Project-X
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -41,7 +41,8 @@ Key components:
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/yourusername/ai-agent-project.git
+```
+git clone https://github.com/yourusername/ai-agent-project.git
 cd ai-agent-project
 ```
 
@@ -77,3 +78,12 @@ This will initiate the research and writing tasks, producing a markdown file wit
 ## Configuration
 
 Modify the `agents.py` file to adjust agent roles, goals, and backstories. Update `tasks.py` to change the specific tasks assigned to each agent.
+
+## Find 2 examples of generated blog post in
+```
+new-blog-post.md
+new-blog-post_new.md
+```
+
+## ACK
+Feel free to visit [CREW-AI](https://docs.crewai.com/) for more details
