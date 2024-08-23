@@ -1,3 +1,9 @@
+# Demo Video:
+
+https://github.com/user-attachments/assets/4536b750-67f9-451f-ba1f-a07041a8f159
+
+
+
 # BlogSynth - AI Agent Project-X
 
 ## Table of Contents
@@ -6,7 +12,6 @@
 3. [Project Overview](#project-overview)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [File Structure](#file-structure)
 7. [Configuration](#configuration)
 8. [Contributing](#contributing)
 9. [License](#license)
