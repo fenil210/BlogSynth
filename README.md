@@ -43,8 +43,8 @@ AI agents are autonomous entities powered by AI models that can perceive their e
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ai-agent-project-x.git
-    cd ai-agent-project-x
+    git clone https://github.com/fenil210/BlogSynth.git
+    cd BlogSynth
     ```
 
 2. Install the required dependencies:
